@@ -24,4 +24,7 @@ The current model achieves only 60% on testing data. For context, random guessin
 ![Performance for each CIFAR-10 class](class-accuracy.png) <br />
 This list shows the accuracy of my model on each CIFAR-10 class. The model generalizes decently on inorganic classes, but fails to distinguish biological agents.
 
-To fix this gap between training and testing performance, I will be applying a number of transformations on my training data. Cropping, flipping, rotating, and adjusting the colors of images may enhance the models ability to generalize. 
+To fix this gap between training and testing performance, I will be applying a number of transformations on my training data. Cropping, flipping, rotating, and adjusting the colors of images may enhance the models ability to generalize.
+
+## Needed ##
+All these text transformations have severly negatively impacted training time. Looking into AWS/GCP VM as I lack the required hardware.
