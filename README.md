@@ -18,8 +18,8 @@ More information on the dataset can be found here https://paperswithcode.com/dat
 
 The current model achieves only 60%. For context, random guessing would have a 10% accuracy. However, human accuracy for CIFAR-10 is 94%. More work must be done for my model to be competetive.
 
-![Graph showing loss function of model over 30 epochs](loss-decline.png)
+![Graph showing loss function of model over 30 epochs](loss-decline.png) <br />
 This graph shows the decline in loss (error) of my model over 30 epochs. We see a near plateau around epoch 22, meaning training must be augmented if we are to see better results.
 
-![Performance for each CIFAR-10 class](class-accuracy)
+![Performance for each CIFAR-10 class](class-accuracy.png) <br />
 This list shows the accuracy of my model on each CIFAR-10 class. The model generalizes decently on inorganic classes, but fails to distinguish biological agents.
